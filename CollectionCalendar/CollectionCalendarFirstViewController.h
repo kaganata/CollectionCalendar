@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TapkuLibrary/TapkuLibrary.h"
 
-@interface CollectionCalendarFirstViewController : UIViewController
+@interface CollectionCalendarFirstViewController : TKCalendarMonthTableViewController {
+    NSMutableDictionary *collectCalendar;
+}
 
 @end

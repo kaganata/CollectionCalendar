@@ -229,7 +229,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: seiya hashimoto (46G86S2X7L)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: seiya hashimoto (46G86S2X7L)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -244,6 +245,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "790546C6-D6F5-4F28-9900-AE429DFDCB09";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "790546C6-D6F5-4F28-9900-AE429DFDCB09";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -271,11 +274,15 @@
 		9B82363914B9C6F70009DECA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: seiya hashimoto (46G86S2X7L)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: seiya hashimoto (46G86S2X7L)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CollectionCalendar/CollectionCalendar-Prefix.pch";
 				INFOPLIST_FILE = "CollectionCalendar/CollectionCalendar-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "790546C6-D6F5-4F28-9900-AE429DFDCB09";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "790546C6-D6F5-4F28-9900-AE429DFDCB09";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
@@ -287,7 +294,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CollectionCalendar/CollectionCalendar-Prefix.pch";
 				INFOPLIST_FILE = "CollectionCalendar/CollectionCalendar-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
